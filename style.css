@@ -1,0 +1,27 @@
+body {
+    background: url('images/codioful-gradient.jpeg') no-repeat center fixed;
+    background-size: cover;
+  }
+
+
+a#navbar-id, .navbar {
+    float: center;
+    padding: 0px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 300px;
+    
+}
+
+a#navbar-id{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    font-size: 5vw;
+    max-width: 50%;
+    background-image: url('images/codioful-gradient.jpeg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #064235;
+}
+
+.navbar-brand {float:none;}
