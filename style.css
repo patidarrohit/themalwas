@@ -13,7 +13,7 @@ a#navbar-id, .navbar {
 a#navbar-id{
     font-family: 'Great Vibes', cursive;
     font-weight: 500;
-    font-size: 5vw;
+    font-size: 7vh;
     max-width: 50%;
     background-image: url('images/codioful-gradient.jpeg');
     background-clip: text;
@@ -23,7 +23,7 @@ a#navbar-id{
 
 .navbar-brand {float:none;}
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
     #navlogo-id{text-align: center; display: block;}
     .navbar{margin: auto;}
     #nav-cont{display: inline;}
