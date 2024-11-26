@@ -1,8 +1,13 @@
 body {
     background: url('images/codioful-gradient.jpeg') no-repeat center fixed;
     background-size: cover;
+    background-attachment: fixed;
+    height: 500vh;
   }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 a#navbar-id, .navbar {
     float: center;
@@ -31,3 +36,40 @@ a#navbar-id{
     body{overflow-y: scroll; overflow-x: hidden;}
     /* .navbar-brand img{width: 100%; height: 100%;} */
   }
+
+.second-font {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #064235
+  }
+
+.menu-btn{
+  background-color: #064235;
+  width: 20vh;
+  font-size: 2.5vh;
+}
+.menu-btn:hover{
+  background-color: #0f735d;
+}
+
+.menu-img{
+  width: 50%;
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.ico{
+  color: #064235;
+}
+.dtl{
+  color: #064235;
+  font-size: 5vh; 
+  font-family: Tangerine, cursive; 
+  font-weight: 400;
+}
+
+@media screen and (max-width: 430px) {
+  .menu-img{
+    width: 90% !important;
+  }
+}
